@@ -13,7 +13,7 @@ export const Container = styled('div',{
         justifyContent: 'space-between',
 
         paddingTop: '10px',
-        marginBottom:'80px',
+        marginBottom:'50px',
 
         maxWidth: '100vw',
         width: '100%',

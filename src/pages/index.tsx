@@ -20,28 +20,28 @@ export default function Home() {
   return (
     <HomeContaier ref={sliderRef} className="keen-slider">
       <ImageContainer className="keen-slider__slide">
-        <Image src={image01} alt='' style={{width: '90vw', height:'100vh'}} width={1900}/>
+        <Image src={image01} alt=''/>
         <footer>
           <a>imagem01</a>
         </footer>
       </ImageContainer>
 
       <ImageContainer className="keen-slider__slide">
-        <Image src={image02} alt='' style={{width: '90vw', height:'100vh'}} width={1900}/>
+        <Image src={image02} alt=''/>
         <footer>
           <a>imagem02</a>
         </footer>
       </ImageContainer>
 
       <ImageContainer className="keen-slider__slide">
-        <Image src={image03} alt='' style={{width: '90vw', height:'100vh'}} width={1900}/>
+        <Image src={image03} alt=''/>
         <footer>
           <a>imagem03</a>
         </footer>
       </ImageContainer>
 
       <ImageContainer className="keen-slider__slide">
-        <Image src={image04} alt='' style={{width: '90vw', height:'100vh'}} width={1900}/>
+        <Image src={image04} alt=''/>
         <footer>
           <a>imagem04</a>
         </footer>

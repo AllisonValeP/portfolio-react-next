@@ -17,14 +17,14 @@ export const ImageContainer = styled('div',{
     position: 'relative',
   
     display: 'flex',
-    alignItems: 'center',
+    
     justifyContent: 'center',
-
-  
+    
+   
     img:{
-      
-        objectFit: 'cover',
+        objectFit: 'contain',
         cursor: 'pointer',
+        height:'calc(100vh - 130px)',
         
     },
 
