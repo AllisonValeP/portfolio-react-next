@@ -4,10 +4,11 @@ import Image from "next/image"
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 
-import image01 from '../assets/imageHome/1.JPG'
-import image02 from '../assets/imageHome/2.JPG'
-import image03 from '../assets/imageHome/3.JPG'
-import image04 from '../assets/imageHome/4.JPG'
+import image01 from '../assets/imageHome/1.jpg'
+import image02 from '../assets/imageHome/2.jpg'
+import image03 from '../assets/imageHome/3.jpg'
+import image04 from '../assets/imageHome/4.jpg'
+
 import { HomeContaier, ImageContainer } from '../styles/pages/home'
 
 export default function Home() {
